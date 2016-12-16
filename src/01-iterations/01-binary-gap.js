@@ -2,7 +2,7 @@
 
 /**
  * Find longest sequence of zeros in binary representation of an integer.
- * @type {Number} N
+ * @param {Number} N
  */
 function solution(N) {
     // binary representation

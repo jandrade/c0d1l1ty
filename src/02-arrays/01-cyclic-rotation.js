@@ -1,10 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
+// https://codility.com/demo/results/trainingKMGEEJ-8JZ/
 
 /**
  * Rotate an array given K positions
- * @type {Array} A
- * @type {Number} K
+ * @param {Array} A
+ * @param {Number} K
  */
 function solution(A, K) {
     let i = 0;
