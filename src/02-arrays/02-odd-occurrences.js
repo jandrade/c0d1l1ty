@@ -1,4 +1,5 @@
 // https://codility.com/demo/results/trainingKY899D-BJ2/
+import test from 'ava';
 
 /**
  * Returns the unpaired element in an array
@@ -16,3 +17,8 @@ function solution(A) {
     
     return unpaired;
 }
+
+// test cases
+test('02/02 Odd Ocurrences', t => {
+    t.is(solution([9, 3, 9, 3, 9, 7, 9]), 7);
+});

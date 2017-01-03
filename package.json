@@ -1,0 +1,31 @@
+{
+  "name": "c0d1l1ty",
+  "version": "0.4.0",
+  "author": "Juan David Andrade <juandavidandrade@gmail.com>",
+  "description": "Codility JS solutions",
+  "scripts": {
+    "test": "ava -v src/**/*.js"
+  },
+  "homepage": "https://github.com/jandrade/c0d1l1ty",
+  "keywords": [
+    "Algorithms"
+  ],
+  "contributors": [
+    {
+      "name": "Juan David Andrade",
+      "email": "juandavidandrade@gmail.com"
+    }
+  ],
+  "bugs": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jandrade/c0d1l1ty.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0"
+  },
+  "bundledDependencies": [],
+  "license": "MIT"
+}
+

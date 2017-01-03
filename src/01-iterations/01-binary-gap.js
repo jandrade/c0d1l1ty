@@ -1,5 +1,7 @@
 // https://codility.com/demo/results/trainingS3ZYVX-K9D/
 
+import test from 'ava';
+
 /**
  * Find longest sequence of zeros in binary representation of an integer.
  * @param {Number} N
@@ -31,8 +33,10 @@ function solution(N) {
 }
 
 // test cases
-console.log(solution(9));
-console.log(solution(529));
-console.log(solution(20));
-console.log(solution(15));
-console.log(solution(1041));
+test('01/01 Binary Gap', t => {
+    t.is(solution(9), 2);
+    t.is(solution(529), 4);
+    t.is(solution(20), 1);
+    t.is(solution(15), 0);
+    t.is(solution(1041), 5);
+});

@@ -1,4 +1,5 @@
 // https://codility.com/demo/results/trainingKMGEEJ-8JZ/
+import test from 'ava';
 
 /**
  * Rotate an array given K positions
@@ -22,5 +23,7 @@ function solution(A, K) {
 }
 
 // test cases
-console.log(solution([3, 8, 9, 7, 6], 1));
-console.log(solution([3, 8, 9, 7, 6], 3));
+test('02/01 cyclic rotation', t => {
+    t.deepEqual(solution([3, 8, 9, 7, 6], 1), [6, 3, 8, 9, 7]);
+    t.deepEqual(solution([3, 8, 9, 7, 6], 3), [9, 7, 6, 3, 8]);
+});
